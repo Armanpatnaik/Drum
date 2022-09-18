@@ -1,0 +1,94 @@
+body{
+    font-family: 'Alumni Sans Pinstripe', sans-serif;
+    background-image: url('back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}  
+.app{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+header h1{ 
+    margin: 30px 0px 20px 0px;
+    text-align: center;
+   font-size: 70px;
+   color: white;
+}
+header p{
+    font-size:50px;
+    color: white;
+}
+.pads div{
+    height: 100px;
+    width: 100px;
+    flex: 1;
+    
+}
+.pads{
+    display: flex;
+    width: 100%;
+    
+    
+}
+.pad1{
+    background-color:#ff070767;
+}
+.pad2{
+    background-color:#2bff005e;
+}
+.pad3{
+    background-color:#00b7ff5d;
+}
+.pad4{
+    background-color:#003cff55;
+}
+.pad5{
+    background-color:#ff03d552;
+}
+.pad6{
+    background-color:#fff2004b;
+
+}
+.visual div{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    bottom: 0%;
+    left: 20%;
+    bottom: 0%;
+    z-index: -1;
+}
+
+@keyframes jump{
+    0%{
+        bottom: 0%;
+        left: 20%;
+    }
+    50%{
+        bottom: 50%;
+        left: 50%;
+    }
+    100%{
+        bottom: 0%;
+        left: 80%;
+    }
+
+}
+.visual div{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    bottom: 0%;
+}
